@@ -10,8 +10,8 @@
   }
   body{
     align-items: center;
-    margin: 200px;
-    margin-left: 600px;
+    margin: 90px;
+    margin-left: 300px;
   }
   
   /* Full-width input fields */
@@ -43,3 +43,10 @@
   .btn:hover {
     opacity: 1;
   }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+/*  
